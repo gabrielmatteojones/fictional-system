@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Pong Game</title>
+    <title>Pong Deluxe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Pong Game</h1>
-    <canvas id="pong" width="800" height="500"></canvas>
+    <h1>Pong Deluxe</h1>
+    <div id="scoreboard">
+        <span id="playerScore">0</span>
+        <span id="divider">—</span>
+        <span id="aiScore">0</span>
+    </div>
+    <canvas id="pong" width="900" height="540"></canvas>
+    <div id="centerMsg"></div>
     <script src="game.js"></script>
 </body>
 </html>
